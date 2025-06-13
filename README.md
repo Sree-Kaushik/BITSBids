@@ -1,3 +1,7 @@
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Tech Stack](https://img.shields.io/badge/stack-React%20%7C%20Node.js%20%7C%20Express%20%7C%20MongoDB-blue)
+
 
 BITSBids - Student Auction Platform
 A comprehensive auction platform exclusively for BITS Pilani students across all campuses. Buy, sell, and trade items with fellow BITSians through a secure, student-verified marketplace.
