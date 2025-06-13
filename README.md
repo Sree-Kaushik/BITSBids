@@ -1,9 +1,10 @@
+# BITSBids - Student Auction Platform
+
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Tech Stack](https://img.shields.io/badge/stack-React%20%7C%20Node.js%20%7C%20Express%20%7C%20MongoDB-blue)
 
 
-BITSBids - Student Auction Platform
 A comprehensive auction platform exclusively for BITS Pilani students across all campuses. Buy, sell, and trade items with fellow BITSians through a secure, student-verified marketplace.
 
 Project Overview
@@ -22,45 +23,34 @@ Secure Transactions: Built-in safety features and dispute resolution
 
 Responsive Design: Works seamlessly on desktop, tablet, and mobile devices
 
-Tech Stack
-Frontend
+## Tech Stack
+
+### Frontend
 React.js (v18.2.0) - Component-based UI framework
-
 React Router (v6.8.0) - Client-side routing
-
 React Toastify (v9.1.1) - Notification system
-
 CSS3 - Custom styling with responsive design
 
-Backend
+### Backend
 Node.js (v18+) - Server runtime
-
 Express.js (v4.18.2) - Web application framework
-
 MongoDB (v6.0+) - NoSQL database
-
 Mongoose (v7.0.1) - MongoDB object modeling
-
 JWT (jsonwebtoken v9.0.0) - Authentication
-
 bcryptjs (v2.4.3) - Password hashing
-
 Multer (v1.4.5) - File upload handling
 
-Prerequisites
+## Prerequisites
+
 Before you begin, ensure you have the following installed on your system:
 
-Node.js (v18.0.0 or higher) - Download here
-
+Node.js (v18.0.0 or higher) - Download here (https://nodejs.org/) (v18+)
 npm (v8.0.0 or higher) - Comes with Node.js
-
-MongoDB (v6.0 or higher) - Download here
-
-Git - Download here
-
+MongoDB (v6.0 or higher) - Download here (https://www.mongodb.com/)
+Git - Download here (https://git-scm.com/)
 Code Editor - VS Code recommended
 
-Installation & Setup
+##  Installation & Setup
 Step 1: Clone the Repository
 Open your first terminal and run:
 
@@ -426,7 +416,7 @@ Components: Add to client/src/components/
 
 Styles: Update client/src/styles/App.css
 
-File Structure After Setup
+📂 Project Structure 
 text
 bitsbids/
 ├── server/
@@ -451,6 +441,7 @@ bitsbids/
 │   │   └── App.js
 │   └── package.json
 └── README.md
+
 Troubleshooting
 Common Issues
 Port Already in Use:
