@@ -1,5 +1,5 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Tech Stack](https://img.shields.io/badge/stack-React%20%7C%20Node.js%20%7C%20Express%20%7C%20MongoDB-blue)
 
 
