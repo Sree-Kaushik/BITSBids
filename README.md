@@ -239,7 +239,7 @@ app.listen(PORT, () => {
 });
 Update package.json scripts in server directory:
 
-json
+
 {
   "scripts": {
     "start": "node server.js",
@@ -368,7 +368,7 @@ Backend API Test:
 Open your browser and go to: http://localhost:5000/api/health
 You should see:
 
-json
+
 {
   "status": "OK",
   "message": "BITSBids API is running",
