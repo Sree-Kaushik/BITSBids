@@ -54,13 +54,13 @@ Code Editor - VS Code recommended
 Step 1: Clone the Repository
 Open your first terminal and run:
 
-bash
+
 git clone https://github.com/Sree-Kaushik/bitsbids.git
 cd bitsbids
 Step 2: Project Structure Setup
 The project should have the following structure:
 
-text
+
 bitsbids/
 ├── client/          # React frontend
 ├── server/          # Node.js backend
@@ -69,7 +69,7 @@ bitsbids/
 Step 3: Backend Setup
 In your first terminal (stay in the root directory):
 
-bash
+
 # Navigate to server directory
 cd server
 
@@ -83,7 +83,7 @@ npm install express mongoose cors dotenv bcryptjs jsonwebtoken multer helmet mor
 npm install -D nodemon concurrently
 Create the backend folder structure:
 
-bash
+
 # Create necessary directories
 mkdir models routes middleware controllers uploads config utils
 
@@ -95,7 +95,7 @@ touch .env
 Step 4: Frontend Setup
 Open a second terminal and navigate to the project root:
 
-bash
+
 cd bitsbids
 
 # Navigate to client directory
@@ -109,7 +109,7 @@ npm install react-router-dom react-toastify axios
 Step 5: Database Setup
 Open a third terminal for MongoDB:
 
-bash
+
 # Start MongoDB service (Windows)
 mongod
 
@@ -123,12 +123,12 @@ Keep this terminal running throughout development.
 Step 6: Environment Configuration
 In your first terminal (server directory), edit the .env file:
 
-bash
+
 # Open .env file in your editor
 code .env
 Add the following environment variables:
 
-text
+
 # Server Configuration
 PORT=5000
 NODE_ENV=development
@@ -158,7 +158,7 @@ RATE_LIMIT_MAX=100
 Step 7: Backend Implementation
 In your first terminal (server directory), create the main server file:
 
-bash
+
 # Edit server.js
 code server.js
 Add the basic server setup:
@@ -250,7 +250,7 @@ json
 Step 8: Frontend Implementation
 In your second terminal (client directory), set up the basic React structure:
 
-bash
+
 # Create necessary directories
 mkdir src/components src/pages src/context src/styles src/utils
 
@@ -337,7 +337,7 @@ Now you'll need three terminals running simultaneously:
 
 Terminal 1 (Backend Server):
 
-bash
+
 cd bitsbids/server
 npm run dev
 You should see:
@@ -348,12 +348,12 @@ text
 ✅ MongoDB connected successfully
 Terminal 2 (Frontend Development Server):
 
-bash
+
 cd bitsbids/client
 npm start
 You should see:
 
-text
+
 Compiled successfully!
 
 You can now view client in the browser.
@@ -381,7 +381,7 @@ You should see the BITSBids homepage.
 Database Test:
 In a fourth terminal:
 
-bash
+
 mongo
 show dbs
 use bitsbids
@@ -390,7 +390,7 @@ Development Workflow
 Daily Development Routine
 Start all services (3 terminals):
 
-bash
+
 # Terminal 1: Backend
 cd bitsbids/server && npm run dev
 
@@ -417,7 +417,7 @@ Components: Add to client/src/components/
 Styles: Update client/src/styles/App.css
 
 📂 Project Structure 
-text
+
 bitsbids/
 ├── server/
 │   ├── models/
@@ -446,13 +446,13 @@ Troubleshooting
 Common Issues
 Port Already in Use:
 
-bash
+
 # Kill process on port 3000 or 5000
 npx kill-port 3000
 npx kill-port 5000
 MongoDB Connection Failed:
 
-bash
+
 # Check if MongoDB is running
 ps aux | grep mongod
 
@@ -461,7 +461,7 @@ brew services restart mongodb-community  # macOS
 sudo systemctl restart mongod            # Linux
 Module Not Found Errors:
 
-bash
+
 # Clear npm cache and reinstall
 npm cache clean --force
 rm -rf node_modules package-lock.json
