@@ -454,7 +454,7 @@ const Home = () => {
             <div className="hero-devices-showcase">
               <div className="device-card device-laptop">
                 <img 
-                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202310?wid=400&hei=300&fmt=jpeg&qlt=90&.v=1697311054290" 
+                  src="https://images.macrumors.com/t/4ssIz-tzmptgrsGY61DNGGY7PFw=/1600x0/article-new/2024/10/M4-MacBook-Pro-Thumb-2.jpg" 
                   alt="MacBook Pro" 
                   onError={(e) => {
                     e.target.src = 'https://via.placeholder.com/400x300?text=MacBook+Pro';
